@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/intensive
+    username: intensive
+    password: intensive
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    url: jdbc:postgresql://localhost:5432/intensive
+    user: intensive
+    password: intensive
+server:
+  port: 8080
